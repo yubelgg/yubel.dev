@@ -1,38 +1,37 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-between mx-auto max-w-2xl">
       <nav className="h-9 flex items-center justify-between mt-5 px-4 w-full text-slate-400">
         <p>Yubel</p>
-        <a
-          href="/blog"
-          className="group px-5 py-4 "
-          rel="noopener noreferrer"
-        >
+        <a href="/blog" className="group px-5 py-4 " rel="noopener noreferrer">
           Blog
         </a>
       </nav>
 
       <main className="flex flex-col items-center justify-between px-4 pt-5 ">
-        <p>Hello there, I'm <strong>Yu Long</strong> aka <strong>yubel</strong>.
-          I'm a 21 y/o CS undergraduate student. I enjoy various things like <strong>coding </strong>
+        <p>
+          Hello there, I'm <strong>Yu Long</strong> or you may call me{" "}
+          <strong>yubel</strong>. I'm a 21 y/o CS undergraduate student. I enjoy
+          various things like <strong>coding </strong>
           and <strong>neovim</strong>.
         </p>
 
-        <div className="mt-12"></div>
-        <h2 className="self-start text-xl font-bold">Projects</h2>
+        <h2 className="mt-12 self-start text-xl font-bold">Projects</h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 text-start w-full">
+        <div className="grid grid-cols-2 md:grid-cols-3 text-start w-full text">
           <a
-            href="https://github.com/yubelgg/docsfile"
+            href="https://github.com/yubelgg/weather-app-v2"
             className="group py-4"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className={`mb-3 text-base underline underline-offset-3`}>
-              dotfiles
+              weather app w/ gpt
             </p>
             <p className={`m-0 max-w-[20ch] text-sm opacity-70`}>
-              dotfiles for my nvim settings
+              weather app with personal measure based on weather powered by gpt
             </p>
           </a>
 
@@ -107,9 +106,20 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="mt-12"></div>
-        <h2 className="self-start text-xl font-bold">Blog</h2>
+        <h2 className="mt-12 self-start text-xl font-bold">Blog</h2>
+
+        <div className="flex flex-col items-start w-full">
+          <Link
+            href="/blog/"
+            className="group py-4"
+            rel="noopener noreferrer"
+          >
+            <p className={`mb-3 text-base underline underline-offset-3`}>
+              test file 
+            </p>
+          </Link>
+        </div>
       </main>
     </div>
-  )
+  );
 }
