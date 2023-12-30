@@ -12,10 +12,10 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-between px-4 pt-5 ">
         <p>
-          Hello there, I'm <strong>Yu Long</strong> or you may call me{" "}
-          <strong>yubel</strong>. I'm a 21 y/o CS undergraduate student. I enjoy
-          various things like <strong>coding </strong>
-          and <strong>neovim</strong>.
+          Hello there, I&apos;m <strong>Yu Long</strong> or you may call me{" "}
+          <strong>yubel</strong>. I&apos;m a 21 y/o CS undergraduate student. I
+          enjoy various things like <strong>coding </strong>
+          and <strong>cycling</strong>. I use <strong>neovim</strong>.
         </p>
 
         <h2 className="mt-12 self-start text-xl font-bold">Projects</h2>
@@ -50,58 +50,58 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/yubelgg/docsfile"
+            href="https://github.com/yubelgg/yubel.dev"
             className="group py-4"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className={`mb-3 text-base underline underline-offset-3`}>
-              dotfiles
+              yubel.dev
             </p>
             <p className={`m-0 max-w-[20ch] text-sm opacity-70`}>
-              dotfiles for my nvim settings
+              minimal portfolio website
             </p>
           </a>
 
           <a
-            href="https://github.com/yubelgg/docsfile"
+            href="https://yubelgg.github.io/PathFinding/"
             className="group py-4"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className={`mb-3 text-base underline underline-offset-3`}>
-              dotfiles
+              pathfinding
             </p>
             <p className={`m-0 max-w-[20ch] text-sm opacity-70`}>
-              dotfiles for my nvim settings
+              visualizing short path possible (Dikstra&apos;s)
             </p>
           </a>
 
           <a
-            href="https://github.com/yubelgg/docsfile"
+            href="https://yubelgg.github.io/TodoList/"
             className="group py-4"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className={`mb-3 text-base underline underline-offset-3`}>
-              dotfiles
+              todo list
             </p>
             <p className={`m-0 max-w-[20ch] text-sm opacity-70`}>
-              dotfiles for my nvim settings
+              simple todo list (temp)
             </p>
           </a>
 
           <a
-            href="https://github.com/yubelgg/docsfile"
+            href="https://github.com/yubelgg/dotfiles-public"
             className="group py-4"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className={`mb-3 text-base underline underline-offset-3`}>
-              dotfiles
+              dotfiles /w arch
             </p>
             <p className={`m-0 max-w-[20ch] text-sm opacity-70`}>
-              dotfiles for my nvim settings
+              includes arch install settings and old neovim setting
             </p>
           </a>
         </div>
@@ -109,13 +109,9 @@ export default function Home() {
         <h2 className="mt-12 self-start text-xl font-bold">Blog</h2>
 
         <div className="flex flex-col items-start w-full">
-          <Link
-            href="/blog/"
-            className="group py-4"
-            rel="noopener noreferrer"
-          >
+          <Link href="/blog/" className="group py-4" rel="noopener noreferrer">
             <p className={`mb-3 text-base underline underline-offset-3`}>
-              test file 
+              neovim
             </p>
           </Link>
         </div>
