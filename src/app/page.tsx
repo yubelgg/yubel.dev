@@ -105,16 +105,6 @@ export default function Home() {
             </p>
           </a>
         </div>
-
-        <h2 className="mt-12 self-start text-xl font-bold">Blog</h2>
-
-        <div className="flex flex-col items-start w-full">
-          <Link href="/blog/" className="group py-4" rel="noopener noreferrer">
-            <p className={`mb-3 text-base underline underline-offset-3`}>
-              neovim
-            </p>
-          </Link>
-        </div>
       </main>
     </div>
   );
